@@ -4,6 +4,11 @@ module.exports = {
   theme: {
     container: {
       center: true,
+      screens: {
+        lg: '1140px',
+        xl: '1140px',
+        '2xl': '1140px',
+      },
     },
     extend: {
       fontFamily: {
@@ -15,6 +20,9 @@ module.exports = {
         'gega-melon': '#FFD369',
         'gega-grey': '#DDDDDD',
         'gega-white': '#F7F7F7',
+      },
+      spacing: {
+        128: '32rem',
       },
     },
   },
