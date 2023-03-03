@@ -537,6 +537,10 @@ video {
   bottom: -0.5rem;
 }
 
+.-top-12 {
+  top: -3rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -562,6 +566,14 @@ video {
   margin-left: -1rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -572,6 +584,14 @@ video {
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .h-3 {
@@ -588,6 +608,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .w-3 {
@@ -624,6 +648,11 @@ video {
 
 .basis-3\/4 {
   flex-basis: 75%;
+}
+
+.-rotate-45 {
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -740,9 +769,19 @@ video {
   background-color: rgb(221 221 221 / var(--tw-bg-opacity));
 }
 
+.bg-gega-melon {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 211 105 / var(--tw-bg-opacity));
+}
+
 .bg-gega-red {
   --tw-bg-opacity: 1;
   background-color: rgb(188 26 69 / var(--tw-bg-opacity));
+}
+
+.bg-gega-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -786,6 +825,11 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-24 {
@@ -840,6 +884,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-xs {
@@ -972,16 +1021,44 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:basis-1\/2 {
     flex-basis: 50%;
+  }
+
+  .md\:basis-1\/3 {
+    flex-basis: 33.333333%;
   }
 
   .md\:basis-1\/4 {
     flex-basis: 25%;
   }
+
+  .md\:basis-2\/3 {
+    flex-basis: 66.666667%;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .lg\:left-0 {
+    left: 0px;
+  }
+
   .lg\:h-128 {
     height: 32rem;
   }
@@ -1000,6 +1077,10 @@ video {
 
   .lg\:w-4 {
     width: 1rem;
+  }
+
+  .lg\:basis-1\/2 {
+    flex-basis: 50%;
   }
 
   .lg\:basis-1\/3 {
