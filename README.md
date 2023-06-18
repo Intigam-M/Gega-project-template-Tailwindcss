@@ -1,6 +1,6 @@
 # Gega Project Template - TailwindCSS
 
-![Gega Project Template](https://github.com/Intigam-M/Gega-project-template-Tailwindcss/gega-project.png)
+![Gega Project Template](https://github.com/Intigam-M/Gega-project-template-Tailwindcss/blob/main/gega-project.png)
 
 GEGA is a GitHub project that provides a one-page template utilizing Tailwind CSS. The project includes a live demo hosted on Netlify, allowing users to experience the template in action.
 
